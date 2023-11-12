@@ -1,8 +1,6 @@
 import { useState } from "react";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
       <div
@@ -13,19 +11,35 @@ function App() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          fontSize: "20px",
+          fontSize: "30px",
+          lineHeight: "2",
         }}
       >
         <div style={{ textAlign: "left" }}>
-          <div>Hello, je suis Sofiane BADDAG.</div>
-          <div>Développeur x Formateur passionné et expérimenté,</div>
-          <div>Avec plus de 5 ans de bouteilles derrière lui.</div>
           <div>
-            Je peux vous proposer des prestations de qualité à des prix très
-            avantageux par rapport au marché.
+            Hello, je suis <b style={{ color: "black" }}>Sofiane BADDAG</b>,
           </div>
-          <div>Je peux me rendre disponible ASAP en freelance.</div>
-          <div>Je suis basé à Toulouse mais aussi à Paris.</div>
+          <div>
+            <b style={{ color: "black" }}>Développeur x Formateur</b> passionné
+            et expérimenté,
+          </div>
+          <div>
+            Avec plus de <b style={{ color: "black" }}>5 ans</b> de bouteilles
+            derrière lui.
+          </div>
+          <div>
+            Je peux vous proposer des prestations de qualité à des{" "}
+            <b style={{ color: "black" }}>prix très avantageux</b> par rapport
+            au marché.
+          </div>
+          <div>
+            Je peux me rendre disponible <b style={{ color: "black" }}>ASAP</b>{" "}
+            en freelance.
+          </div>
+          <div>
+            Je suis basé à <b style={{ color: "black" }}>Toulouse</b> mais aussi
+            à <b style={{ color: "black" }}>Paris</b>.
+          </div>
         </div>
       </div>
       <div
@@ -33,19 +47,20 @@ function App() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          padding: "50px 0px",
+          fontSize: "40px",
         }}
       >
         <div
           style={{
             color: "#63BFB0",
             textAlign: "center",
-            fontSize: "20px",
-            padding: "30px 0px",
+            // padding: "50px 0px",
           }}
         >
           Mes technos:
         </div>
-        <ul>
+        <ul style={{ fontSize: "30px" }}>
           <li>
             Intégration <b>(les classiques)</b>: HTML / CSS / Tailwind
           </li>
@@ -72,13 +87,14 @@ function App() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          fontSize: "40px",
         }}
       >
         <div style={{ textAlign: "left" }}>
           <div>Aussi j’aime bien les langues (humaines),</div>
           <div style={{ marginTop: "5px" }}>je les collectionne:</div>
         </div>
-        <ul>
+        <ul style={{ fontSize: "30px" }}>
           <li>anglais</li>
           <li>français</li>
           <li>arabe</li>
@@ -92,11 +108,19 @@ function App() {
       <div
         style={{
           textAlign: "center",
-          padding: "60px 0px",
-          fontSize: "20px",
+          padding: "100px 0px",
+          fontSize: "40px",
         }}
       >
-        contact: sofiane.baddag@gmail.com
+        <div>Discutons ensemble de vos besoins:</div>
+        <div style={{ marginTop: "20px" }}>
+          <a
+            href="mailto: sofiane.baddag@gmail.com"
+            style={{ textDecoration: "none" }}
+          >
+            sofiane.baddag@gmail.com
+          </a>
+        </div>
       </div>
     </div>
   );
