@@ -1,20 +1,7 @@
-import { useState } from "react";
-
 function App() {
   return (
     <div>
-      <div
-        style={{
-          backgroundColor: "#63BFB0",
-          color: "white",
-          padding: "60px 0px",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          fontSize: "30px",
-          lineHeight: "2",
-        }}
-      >
+      <div className="part1">
         <div style={{ textAlign: "left" }}>
           <div>
             Hello, je suis <b style={{ color: "black" }}>Sofiane BADDAG</b>,
@@ -42,25 +29,16 @@ function App() {
           </div>
         </div>
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          padding: "50px 0px",
-          fontSize: "40px",
-        }}
-      >
+      <div className="part2">
         <div
           style={{
             color: "#63BFB0",
             textAlign: "center",
-            // padding: "50px 0px",
           }}
         >
           Mes technos:
         </div>
-        <ul style={{ fontSize: "30px" }}>
+        <ul>
           <li>
             Intégration <b>(les classiques)</b>: HTML / CSS / Tailwind
           </li>
@@ -79,22 +57,12 @@ function App() {
           </li>
         </ul>
       </div>
-      <div
-        style={{
-          backgroundColor: "#25B4D0",
-          color: "white",
-          padding: "60px 0px",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          fontSize: "40px",
-        }}
-      >
+      <div className="part3">
         <div style={{ textAlign: "left" }}>
           <div>Aussi j’aime bien les langues (humaines),</div>
           <div style={{ marginTop: "5px" }}>je les collectionne:</div>
         </div>
-        <ul style={{ fontSize: "30px" }}>
+        <ul>
           <li>anglais</li>
           <li>français</li>
           <li>arabe</li>
@@ -105,14 +73,10 @@ function App() {
           <li>indonésien</li>
         </ul>
       </div>
-      <div
-        style={{
-          textAlign: "center",
-          padding: "100px 0px",
-          fontSize: "40px",
-        }}
-      >
-        <div>Discutons ensemble de vos besoins:</div>
+      <div className="part4">
+        <div>
+          Discutons ensemble de <b>vos besoins</b>:
+        </div>
         <div style={{ marginTop: "20px" }}>
           <a
             href="mailto: sofiane.baddag@gmail.com"
