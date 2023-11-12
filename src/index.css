@@ -1,0 +1,10 @@
+body {
+  font-family: Arial;
+  margin: 0px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
