@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":  "https://popo63301.github.io",
+  "homepage":  "https://popo63301.github.io/lite_cv",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
