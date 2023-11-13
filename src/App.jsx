@@ -15,7 +15,8 @@ function App() {
             derrière lui.
           </div>
           <div>
-            Je peux vous proposer des prestations de qualité à des{" "}
+            Je peux vous proposer des{" "}
+            <b style={{ color: "black" }}>prestations de qualité</b> à des{" "}
             <b style={{ color: "black" }}>prix très avantageux</b> par rapport
             au marché.
           </div>
